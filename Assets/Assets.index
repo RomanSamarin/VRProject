@@ -1,12 +1,18 @@
 {
+    "name": "Assets/rgp",
+    "type": "asset",
     "roots": [],
     "includes": [],
-    "excludes": ["Assets/Temp/", "Assets/External/"],
+    "excludes": [
+        "Assets/Temp/",
+        "Assets/External/"
+    ],
     "options": {
+        "disabled": false,
         "types": true,
         "properties": true,
         "extended": false,
         "dependencies": false
     },
-    "baseScore": 100
+    "baseScore": 0
 }
