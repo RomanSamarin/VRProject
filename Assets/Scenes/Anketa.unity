@@ -1742,7 +1742,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 819483917}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1433369257}
+        m_TargetAssemblyTypeName: AnketaScript, Assembly-CSharp
+        m_MethodName: OnButtonUserAge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &819483917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2263,6 +2275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameInputField: {fileID: 1069354739}
   nameTMPText: {fileID: 451415609}
+  ageInputField: {fileID: 581323317}
+  birthDayYearTmpText: {fileID: 1478679212}
 --- !u!1 &1478679210
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,7 +2470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0422\u0432\u043E\u0439 \u0432\u043E\u0437\u0440\u0430\u0441\u0442:"
+  m_text: "\u0422\u044B \u0440\u043E\u0434\u0438\u043B\u0441\u044F:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
