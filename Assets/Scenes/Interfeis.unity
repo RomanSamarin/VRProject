@@ -5139,6 +5139,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 17871634}
     m_Modifications:
+    - target: {fileID: 665923755554030772, guid: c3b7f487ddd70ef4ea9474aa21f04d8d, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2191599526464442148, guid: c3b7f487ddd70ef4ea9474aa21f04d8d, type: 3}
       propertyPath: m_Sprite
       value: 
