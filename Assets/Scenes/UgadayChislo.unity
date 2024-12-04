@@ -1425,10 +1425,10 @@ RectTransform:
   - {fileID: 1060083785}
   m_Father: {fileID: 1705834843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963883896
 MonoBehaviour:
@@ -2613,10 +2613,10 @@ RectTransform:
   - {fileID: 1713107131}
   m_Father: {fileID: 1705834843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419401317
 MonoBehaviour:
@@ -3749,7 +3749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftInputField: {fileID: 727966098}
   RightInputField: {fileID: 970409103}
-  OutPut: {fileID: 2123360198}
+  OutPut: {fileID: 1713107132}
 --- !u!1 &1713107130
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,7 +3762,7 @@ GameObject:
   - component: {fileID: 1713107133}
   - component: {fileID: 1713107132}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: 2Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
