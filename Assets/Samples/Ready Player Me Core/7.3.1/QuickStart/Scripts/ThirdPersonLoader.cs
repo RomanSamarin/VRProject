@@ -65,6 +65,7 @@ namespace ReadyPlayerMe.Samples.QuickStart
             avatar.transform.parent = transform;
             avatar.transform.localPosition = avatarPositionOffset;
             avatar.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            avatar.transform.localScale = Vector3.one;
             
             var controller = GetComponent<ThirdPersonController>();
             if (controller != null)
